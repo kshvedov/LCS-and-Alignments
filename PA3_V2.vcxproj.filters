@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Tests">
+      <UniqueIdentifier>{d8e19dc2-5910-4536-b0fd-c8c233e32660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fastas">
+      <UniqueIdentifier>{e0735d39-19ff-4cd3-b858-7115488e68f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Output">
+      <UniqueIdentifier>{e8025dbe-1a0d-4c2a-b53a-6e449d16209f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileReader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parameters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="st.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="similarityMatrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="task2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FullCellList.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="parameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="st.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="similarityMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="task2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FullCellList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Covid_Australia.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="Covid_Brazil.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="Covid_India.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="Covid_USA.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="Covid_Wuhan.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="MERS_2012_Saudi.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="MERS_2014_Saudi.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="MERS_2014_USA.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="SARS_2003.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="SARS_2017.fasta">
+      <Filter>Resource Files\Fastas</Filter>
+    </None>
+    <None Include="s1.fasta">
+      <Filter>Resource Files\Tests</Filter>
+    </None>
+    <None Include="s2.fasta">
+      <Filter>Resource Files\Tests</Filter>
+    </None>
+  </ItemGroup>
+</Project>
